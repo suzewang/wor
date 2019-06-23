@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .main{
+            width:1200px;
+            margin:0 auto;
+        }
+        .to{
+            width:1600px;
+            height:40px;
+            background-color:black;
+            margin-left:-15px;
+        }
+        .phone{
+            margin-left:900px;
+            margin-top:8px;
+        }
+        .num{
+            color:white;
+            font-size:17px;
+            margin-top:8px;
+            position:absolute;
+            margin-left:10px;
+        }
+        .sign{
+            color:white;
+            font-size:12px;
+            margin-left:150px;
+            margin-top:12px;
+            position:absolute;
+        }
+        .gra{
+            background-color:rgb(231, 226, 226);
+            height:70px;
+        }
+        .log{
+            margin-top:-10px;
+            position:absolute;
+        }
+        .nav{
+            margin-top:10px;
+            margin-left:300px;
+        }
+        .nav>li>a{
+            color:black;
+            font-size:15px;
+        }
+        .carousel-inner{
+            height:365px;
+        }
+        .car{
+                background-color:rgb(74, 74, 190);
+                height:363px;
+                width:265px;
+                margin-left:-75px;
+        }
+        .photo{
+                position:absolute;
+                left:85px;
+                top:50px;
+            }
+            .receive{
+                font-size:25px;
+                color:white;
+                position:absolute;
+                left:80px;
+                top:155px;
+            }
+            .detail{
+                width:120px;
+                height:40px;
+                border:1px solid white;
+                border-radius:3px;
+                color:white;
+                text-align:center;
+                line-height:40px;
+                font-size:20px;
+                position:absolute;
+                left:70px;
+                top:250px;
+            }
+            .topic{
+                text-align:center;
+            }
+            div{
+                overflow:hidden;
+            }
+            .hainan{
+                width:588px;
+                height:100px;
+                background-color:black;
+            }
+            .sanya{
+                color:white;
+                font-size:17px;
+                position:absolute;
+                left:40px;
+                top:400px;
+            }
+            .money{
+                color:white;
+                position:absolute;
+                left:40px;
+                top:430px;
+                font-size:20px;
+            }
+            .redcar{
+                width:588px;
+                height:90px;
+                background-color:black;
+            }
+            .japan{
+                position:absolute;
+                margin-top:-193px;
+                margin-left:595px;
+                width:615px;
+            }
+            .more{
+                width:150px;
+                height:40px;
+                border:1px solid black;
+                border-radius:5px;
+                text-align:center;
+                line-height:40px;
+                font-size:20px;
+                margin:0 auto;
+                margin-top:35px;
+            }
+            .we{
+                margin-top:80px;
+                width:100%;
+                height:300px;
+                background:url(img/Bbanner.jpg) no-repeat;
+                background-size:100%;
+                margin-bottom:110px;
+            }
+            .service{
+                height:350px;
+                background-color:rgb(58, 58, 212);
+                color:white;
+                text-align:center;
+                opacity:0.5;
+            }
+            .think{
+                margin-top:70px;
+            }
+            .english{
+                font-size:13px;
+                width:400px;
+                margin:0 auto;
+                text-align:left;
+                margin-top:35px;
+                line-height:30px;
+            }
+            .staff{
+                width:1125px;
+                height:400px;
+                background:url(img/mission2.jpg) no-repeat;
+                background-size:100%;
+                margin-left:15px;
+                margin-top:5px;
+            }
+            .way{
+                width:1125px;
+                height:400px;
+                background-color:rgb(49, 49, 233);
+                margin-left:15px;
+                margin-top:5px;
+            }
+            .care{
+                margin-left:150px;
+                margin-top:45px;
+            }
+            .light{
+                margin-left:-125px;
+            }
+            .ok{
+                color:white;
+                font-size:17px;
+                margin-top:155px;
+                position:absolute;
+                margin-left:-70px
+            }
+            .cost{
+                margin-left:170px;
+                margin-top:45px;
+            }
+            .true{
+                margin-left:-123px;
+            }
+            .take{
+                margin-left:-60px;
+                position:absolute;
+                margin-top:155px;
+                color:white;
+                font-size:16px;
+            }
+            .good{
+                margin-left:180px;
+                margin-top:45px;
+            }
+            .hand{
+                margin-left:-120px;
+            }
+            .small{
+                position:absolute;
+                margin-left:-60px;
+                margin-top:155px;
+                color:white;
+                font-size:16px;
+            }
+            .botto{
+                height:300px;
+            }
+            .fly{
+                margin-top:30px;
+                margin-left:90px;
+            }
+            .net{
+                color:white;
+                font-size:10px;
+                position:absolute;
+                margin-top:80px;
+                margin-left:-420px;
+            }
+            .in{
+                color:white;
+                font-size:10px;
+                position:absolute;
+                margin-top:80px;
+                margin-left:-290px;
+            }
+            .go{
+                color:white;
+                font-size:10px;
+                position:absolute;
+                margin-top:80px;
+                margin-left:-160px;
+            }
+            .place{
+                color:white;
+                font-size:10px;
+                position:absolute;
+                margin-top:80px;
+                margin-left:-60px;
+            }
+            .hot{
+                color:white;
+                margin-left:17px;
+                position:absolute;
+                margin-top:50px;
+            }
+            .country{
+                color:white;
+                font-size:12px;
+                margin-left:95px;
+                margin-top:51px;
+            }
+            .englis{
+                color:white;
+                font-size:12px;
+                margin-left:95px;
+            }
+            .topi{
+                color:white;
+                margin-left:17px;
+                margin-top:10px;
+                position:absolute;
+            }
+            .sea{
+                color:white;
+                font-size:12px;
+                margin-left:95px;
+                margin-top:11px;
+            }
+            .friend{
+                color:white;
+                margin-left:17px;
+                margin-top:10px;
+                position:absolute;
+            }
+            .horse{
+                color:white;
+                font-size:12px;
+                margin-left:95px;
+                margin-top:11px;
+            }
+            .out{
+                color:white;
+                font-size:12px;
+                margin-left:95px;
+            }
+            .lin{
+                border-top:1px solid white;
+                height:100px;
+            }
+            .number{
+                color:white;
+                margin-top:40px;
+                position:absolute;
+                margin-left:350px;
+            }
+            .lef{
+                margin-top:160px;
+                margin-left:-140px;
+            }
+            .righ{
+                margin-top:170px;
+                margin-right:-150px;
+            }
+            .nav li a:hover{
+                color:orange;
+            }
+            .rout{
+                margin-left:30px;
+            }
+            .world{
+                margin-left:-20px;
+            }
+            .des{
+                color:white;
+                position:absolute;
+                margin-top:270px;
+                margin-left:-165px;
+            }
+            .all{
+                color:white;
+                position:absolute;
+                margin-top:300px;
+                margin-left:-130px;
+            }
+            .no{
+                color:white;
+                position:absolute;
+                margin-top:270px;
+                margin-left:-60px;
+            }
+            .shop{
+                color:white;
+                position:absolute;
+                margin-top:300px;
+                margin-left:-110px;
+            }
+            .self{
+                color:white;
+                position:absolute;
+                margin-top:270px;
+                margin-left:-80px;
+            }
+            .only{
+                color:white;
+                position:absolute;
+                margin-top:300px;
+                margin-left:-120px;
+            }
+            .gay{
+                color:white;
+                position:absolute;
+                margin-top:30px;
+                margin-left:17px;
+            }
+            .city{
+                color:white;
+                font-size:18px;
+                margin-top:10px;
+                position:absolute;
+                margin-left:40px;
+            }
+            .dollar{
+                color:white;
+                margin-top:50px;
+                position:absolute;
+                font-size:22px;
+                margin-left:35px;
+            }
+            .five{
+                width:600px;
+                height:90px;
+                background-color:black;
+                position:absolute;
+                margin-top:-90px;
+                opacity:0.6;
+            }
+            .give{
+                color:white;
+                font-size:18px;
+                margin-top:10px;
+                margin-left:40px;
+                position:absolute;
+            }
+            .start{
+                color:white;
+                margin-top:40px;
+                position:absolute;
+                margin-left:40px;
+                font-size:20px;
+            }
+            .water{
+                width:600px;
+                height:90px;
+                background-color:black;
+                position:absolute;
+                margin-top:-90px;
+                opacity:0.6;
+            }
+            .flower{
+                color:white;
+                font-size:18px;
+                margin-top:10px;
+                position:absolute;
+                margin-left:40px;
+            }
+            .star{
+                color:white;
+                margin-top:40px;
+                position:absolute;
+                margin-left:40px;
+                font-size:20px;
+            }
+            .seven{
+                width:600px;
+                height:90px;
+                background-color:black;
+                position:absolute;
+                margin-top:-90px;
+                opacity:0.6;
+            }
+            .days{
+                color:white;
+                font-size:18px;
+                margin-top:10px;
+                position:absolute;
+                margin-left:40px;
+            }
+            .sta{
+                color:white;
+                margin-top:40px;
+                position:absolute;
+                margin-left:40px;
+                font-size:20px;
+            }
+            .pen{
+                width:375px;
+                height:70px;
+                background-color:black;
+                margin-top:-70px;
+                position:absolute;
+                opacity:0.6;
+            }
+            .two{
+                color:white;
+                font-size:19px;
+                margin-left:40px;
+                margin-top:20px;
+                position:absolute;
+            }
+            .bot{
+                margin-top:5px;
+            }
+            .prove{
+                width:400px;
+                height:50px;
+                background-color:black;
+                position:absolute;
+                margin-top:-50px;
+                opacity:0.6;
+            }
+            .three{
+                color:white;
+                font-size:18px;
+                margin-left:40px;
+                margin-top:12px;
+                position:absolute;
+            }
+            .apply{
+                width:400px;
+                height:50px;
+                background-color:black;
+                position:absolute;
+                margin-top:-50px;
+                opacity:0.6;
+            }
+            .roo{
+                color:white;
+                font-size:18px;
+                margin-left:40px;
+                margin-top:12px;
+                position:absolute;
+            }
+            .come{
+                width:400px;
+                height:50px;
+                background-color:black;
+                position:absolute;
+                margin-top:-50px;
+                opacity:0.6;
+            }
+            .asia{
+                color:white;
+                font-size:18px;
+                margin-left:40px;
+                margin-top:12px;
+                position:absolute;
+            }
+            .beautiful{
+                width:400px;
+                height:50px;
+                background-color:black;
+                position:absolute;
+                margin-top:-50px;
+                opacity:0.6;
+            }
+            .one{
+                color:white;
+                font-size:18px;
+                margin-left:40px;
+                margin-top:12px;
+                position:absolute;
+            }
+            li::after{
+            content:'';
+            position:absolute;
+            bottom:0;
+            width:0;
+            height:3px;
+            background-color:orange;
+            transition: .5s all linear;
+            left:30%;
+        }
+        .ou{
+            width:1600px;
+            margin:0 auto;
+            background-color:rgb(206, 185, 185);
+        }
+        .tour{
+            position:absolute;
+            color:white;
+            top:50px;
+            left:30px;
+        }
+        .floa{
+            color:white;
+            position:absolute;
+            left:40px;
+            top:130px;
+            font-size:17px;
+        }
+        .moun{
+            color:white;
+            font-size:17px;
+            position:absolute;
+            left:40px;
+            top:160px;
+        }
+        .pur{
+            position:absolute;
+            top:250px;
+            left:450px;
+        }
+        .pu{
+            width:120px;
+            height:34px;
+            background-color:rgb(206, 185, 185);
+            position:absolute;
+            top:250px;
+            left:333px;
+            border-top-left-radius:5px;
+            border-bottom-left-radius:5px; 
+        }
+        .sun{
+            width:250px;
+        }
+        .wher{
+            position:absolute;
+            left:20px;
+            top:5px;
+        }
+        .search{
+            width:100px;
+            height:34px;
+            background-color:orangered;
+            position:absolute;
+            top:250px;
+            left:660px;
+        }
+        .eye{
+            position:absolute;
+            left:50px;
+            top:7px;
+        }
+        .search{
+            text-align:center;
+            border-top-right-radius:5px;
+            border-bottom-right-radius:5px;
+        }
+        .over{
+            background-color:rgb(231, 226, 226);
+            height:70px;
+            
+        }
+        body{
+            position:relative;
+        }
+        .nav>.active>a{
+            display:block;
+            color:orange!important;
+            font-weight:700;
+            background-color:transparent!important;
+        }
+        .nav>.active::after{
+            width:58%;
+        }
+        .nav>.active>a:focus{
+            background-color:transparent;
+        }
+        .land{
+            width:1600px;
+            height:600px;
+            background:url(img/back.png) no-repeat;
+            background-size:100% 100%;
+            position:absolute;
+            left:340px;
+            top:3080px;
+        }
+        .includ{
+            width:1600px;
+            height:70px;
+            background-color:red;
+            position:absolute;
+            background-color:rgb(231, 226, 226);
+            margin-left:-15px;
+        }
+        @media screen and (max-width:530px){
+            .ou{
+                display:none;
+            }
+            .apple{
+                width:500px;
+                height:80px;
+            }
+            .happy{
+                margin-top:12px;
+                margin-left:15px;
+            }
+            .fast{
+                width:130px;
+                height:45px;
+                background-color:orangered;
+                margin-top:-45px;
+                margin-left:280px;
+                color:white;
+                font-size:17px;
+                text-align:center;
+                line-height:45px;
+                border-radius:5px;
+            }
+            li{
+                list-style:none;
+            }
+            .linea{
+                margin-top:-65px;
+                margin-left:400px;
+            }
+            .ph{
+                width:480px;
+                height:240px;
+                
+                position:absolute;
+                background:url(img/banner.jpg) no-repeat center center;
+                color:white;
+                overflow:hidden;
+            }
+            .how{
+                margin-left:25px;
+                margin-top:50px;
+                position:absolute;
+                font-size:21px;
+            }
+            .process{
+                margin-left:25px;
+                margin-top:90px;
+                position:absolute;
+            }
+            .guitar{
+                margin-left:120px;
+                margin-top:180px;
+            }
+            .tv{
+                margin-left:50px;
+                margin-top:-34px;
+                background-color:rgb(224, 212, 212);
+                width:100px;
+                color:black;
+                height:34px;
+                border-top-left-radius:5px;
+                border-bottom-left-radius:5px;
+                font-size:12px;
+                line-height:34px;  
+            }
+            .for{
+                margin-left:7px;
+            }
+            .river{
+                width:80px;
+                height:34px;
+                background-color:orangered;
+                margin-left:370px;
+                margin-top:-34px;
+                text-align:center;
+                border-top-right-radius:5px;
+                border-bottom-right-radius:5px;
+            }
+            .smart{
+                background-color:rgb(231, 226, 226);
+            }
+            .music{
+                width:500px;
+                height:140px;
+                background-color:white;
+                margin-top:270px;
+            }
+            .love{
+                margin-top:19px;
+                margin-left:20px;
+            }
+            .succes{
+                color:blue;
+                font-size:20px;
+                margin-left:15px;
+                margin-top:21px;
+                position:absolute;
+            }
+            .reflect{
+                margin-left:16px;
+                margin-top:60px;
+                position:absolute;
+            }
+            .mone{
+                margin-left:16px;
+                position:absolute;
+                margin-top:80px;
+            }
+            .daily{
+                width:90px;
+                height:30px;
+                border:1px solid black;
+                margin-left:390px;
+                margin-top:-60px;
+                border-radius:5px;
+                text-align:center;
+                line-height:30px;
+            }
+            .pric{
+                width:500px;
+                height:800px;
+                background-color:white;
+                margin-top:10px;
+            }
+            .wate{
+                font-size:18px;
+                margin-left:30px;
+                margin-top:40px;
+                border-left:2px solid orange;
+                padding-left:10px;
+            }
+            .tiger{
+                margin-top:30px;
+                width:425px;
+                margin-left:30px;
+            }
+            .thi{
+                width:425px;
+                height:80px;
+                background-color:black;
+                margin-left:30px;
+                margin-top:-80px;
+                position:absolute;
+                opacity:0.8;
+            }
+            .thi1{
+                width:425px;
+                height:80px;
+                background-color:black;
+                margin-left:30px;
+                margin-top:-100px;
+                position:absolute;
+                opacity:0.8;
+            }
+            .comf{
+                color:white;
+                font-size:17px;
+                margin-left:15px;
+                margin-top:15px;
+                position:absolute;
+            }
+            .face{
+                color:white;
+                font-size:17px;
+                margin-left:15px;
+                margin-top:40px;
+                position:absolute;
+            }
+            .selec{
+                color:white;
+                font-size:20px;
+                margin-left:280px;
+                margin-top:25px;
+                position:absolute;
+            }
+            .me{
+                width:425px;
+                margin-left:30px;
+                margin-top:30px;
+            }
+            .wind{
+                width:100px;
+                height:30px;
+                border:1px solid black;
+                text-align:center;
+                line-height:30px;
+                margin:0 auto;
+                margin-top:30px;
+                border-radius:5px;
+            }
+            .much{
+                width:500px;
+                height:460px;
+                background-color:white;
+                margin-top:10px;
+            }
+            .walk{
+                font-size:18px;
+                margin-left:30px;
+                margin-top:30px;
+                border-left:2px solid orange;
+                padding-left:10px;
+            }
+            .frien{
+                width:200px;
+                margin-left:30px;
+                margin-top:20px;
+            }
+            .cat{
+                width:200px;
+                height:40px;
+                background-color:black;
+                margin-left:30px;
+                margin-top:-40px;
+                position:absolute;
+                opacity:0.8;
+            }
+            .yo{
+                color:white;
+                font-size:17px;
+                margin-left:15px;
+                margin-top:7px;
+                position:absolute;
+            }
+            .winter{
+                width:230px;
+                height:150px;
+                margin-top:-108px;
+            }
+            .eight{
+                width:230px;
+                height:40px;
+                background-color:black;
+                margin-left:234px;
+                margin-top:-168px;
+                position:absolute;
+                opacity:0.8;
+            }
+            .leav{
+                color:white;
+                font-size:17px;
+                margin-left:15px;
+                margin-top:5px;
+                position:absolute;
+            }
+            .think{
+                width:230px;
+                margin-left:234px;
+                margin-top:-145px;
+                height:125px;
+            }
+            .tim{
+                width:230px;
+                height:40px;
+                background-color:black;
+                margin-left:235px;
+                margin-top:-60px;
+                position:absolute;
+                opacity:0.8;
+            }
+            .that{
+                color:white;
+                font-size:17px;
+                margin-left:15px;
+                margin-top:7px;
+                position:absolute;
+            }
+            .wind1{
+                margin-top:15px;
+            }
+            .now{
+                width:500px;
+                height:1300px;
+                background-color:white;
+                margin-top:10px;
+                background:url(img/back.png) no-repeat;
+            }
+            .tog{
+                border-left:2px solid orange;
+                padding-left:10px;
+                margin-top:30px;
+                margin-left:20px;
+            }
+            .exam{
+                font-size:19px;
+            }
+            .school{
+                width:450px;
+                margin-left:20px;
+                margin-top:30px;
+            }
+            .know{
+                font-size:18px;
+                margin-left:-270px;
+                margin-top:390px;
+                position:absolute;
+            }
+            .some{
+                width:440px;
+                margin-left:15px;
+                margin-top:80px;
+            }
+            .lifes{
+                width:460px;
+                margin-left:10px;
+            }
+            .people1{
+                margin-left:-270px;
+                font-size:18px;
+                margin-top:220px;
+                position:absolute;
+            }
+            .hop{
+                margin-left:80px;
+                margin-top:90px;
+            }
+            .second{
+                margin-left:200px;
+                margin-top:-60px;
+            }
+            .month{
+                margin-left:85px;
+                margin-top:20px;
+            }
+            .bad{
+                margin-left:200px;
+                margin-top:-50px;
+            }
+            .practic{
+                margin-left:85px;
+                margin-top:20px;
+            }
+            .fight{
+                margin-left:200px;
+                margin-top:-42px;
+            }
+            .every{
+                width:500px;
+                height:200px;
+                background-color:black;
+                margin-top:50px;
+                text-align:center;
+            }
+            .reason{
+                color:white;
+                margin-top:50px;
+            }
+            .die{
+                background-color:rgb(206, 185, 185);
+                position:absolute;
+                left:-440px;
+                top:62px;
+                width:480px;
+            }
+            .die1{
+                position:relative;
+            }
+        }
+        @media screen and (min-width:520px){
+            li:hover::after{
+                width:58%;
+            }
+            .smart{
+                display:none;
+            }
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#fixed-nav">
+    <div class="container ou">
+            <div class="to" id="home">
+                    <img src="img/tell.png" class="phone">
+                    <span class="num">400-808-8682</span>
+                    <span class="sign">请登录&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;注册</span>
+            </div>
+            <div class="includ"></div>
+    <div class="main tab-content">
+        <div id="container" class="gra">
+                <nav class="navbar over" id="fixed-nav"> 
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-1">
+                                <span class="sr-only">导航开关</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"><img src="img/logo.png" class="log"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-1">
+                            <ul class="nav navbar-nav nav-tabs" role="tablist">
+                                <li class="active"><a href="#home">&nbsp;首页</a></li>
+                                <li><a href="#menu1" class="rout">热门路线</a></li>
+                                <li><a href="#menu2" class="rout">签证推荐</a></li>
+                                <li><a href="#menu3" class="rout">使命愿景</a></li>    
+                            </ul> 
+                        </div>
+                    </div>
+                </nav>
+        </div>
+        <div id="container play">			
+                <div id="generic" class="carousel slide" data-ride="carousel">
+                     <!-- 轮播（Carousel）项目 -->
+                    <div class="carousel-inner">
+                          <div class="item active">
+                            <img alt="First slide" src="img/banner.jpg" style="width:100%;height:100%;">
+                            <div class="tour"><h1>悠游古欧洲&nbsp;遍览德法瑞意</h1></p></div>	  
+                            <span class="floa">巴黎卢浮宫、&nbsp;塞纳河游船、&nbsp;凡尔赛宫</span>
+                            <span class="moun">少女峰、&nbsp;大运河游船、金色列车，&nbsp;西庸城堡</span>
+                            <div class="pu">
+                                <img src="img/position.png" class="wher">
+                                <span class="eye">目的地</span>
+                            </div>
+                            <form class="form-horizontal pur">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control col-sm-10 sun" id="inputEmail3" placeholder="| 日本   美国    英国    地中海">
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="search">
+                                <img src="img/search.png">
+                            </div>
+                          </div>
+                          <div class="item">
+                            <img alt="Second slide" src="img/banner2.jpg" style="width:100%;height:100%;">
+                            <div class="tour"><h1>悠游古欧洲&nbsp;遍览德法瑞意</h1></p></div>	  
+                            <span class="floa">巴黎卢浮宫、&nbsp;塞纳河游船、&nbsp;凡尔赛宫</span>
+                            <span class="moun">少女峰、&nbsp;大运河游船、金色列车，&nbsp;西庸城堡</span>
+                            <div class="pu">
+                                <img src="img/position.png" class="wher">
+                                <span class="eye">目的地</span>
+                            </div>
+                            <form class="form-horizontal pur">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control col-sm-10 sun" id="inputEmail3" placeholder="| 日本   美国    英国    地中海">
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="search">
+                                <img src="img/search.png">
+                            </div>
+                          </div>		      
+                </div>
+                
+                <!-- 轮播（Carousel）导航 -->
+                    <a class="left carousel-control" href="#generic" data-slide="prev">
+                      <img src="img/left.png" class="lef">
+                    </a>
+                    <a class="right carousel-control" href="#generic" data-slide="next">
+                      <img src="img/right.png" class="righ">
+                    </a>
+        </div>
+        <div id="container">
+                <div class="row">
+                  <div class="col-md-10">
+                      <img src="img/Sbanner2.jpg">
+                  </div>
+                  <div class="col-md-2 car">
+                      <img src="img/car.png" class="photo">
+                      <span class="receive">车辆接送</span>
+                      <div class="detail">
+                          查看详情
+                      </div>
+                  </div>
+              </div>
+        </div>
+        <h1 class="topic" id="menu1">热&nbsp;&nbsp;门&nbsp;&nbsp;线&nbsp;&nbsp;路</h1>
+        <h4 class="topic">Popular tourist routes</h4>
+        <div id="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/hot1.jpg"/>
+                        <div class="hainan">
+                            <span class="sanya">海南三亚5天4晚，纯玩、4晚红树林度假王国</span>
+                            <span class="money">￥2580/人起</span>
+                        </div>
+                      </div>
+                      <div class="col-md-6 world">
+                          <img src="img/hot3.jpg"/>
+                          <div class="five">
+                              <span class="give">曼谷+芭提雅&nbsp;国际五星，&nbsp;赠送2220大礼包，&nbsp;绝无自费</span>
+                              <span class="start">￥2799/人起</span>
+                          </div>
+                      </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/hot2.jpg">
+                        <div class="redcar">
+                            <span class="city">德法意瑞欧洲4国，ABCD任意线路由您挑选</span>
+                            <span class="dollar">￥7999/人起</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 japan">
+                        <img src="img/hot4.jpg">
+                        <div class="water">
+                            <span class="flower">日本本州游&nbsp;樱花、&nbsp;寿司、&nbsp;温泉、&nbsp;美食</span>
+                            <span class="star">￥5399/人起</span>
+                        </div>
+                        <img src="img/hot5.jpg">
+                        <div class="seven">
+                            <span class="days">斯里兰卡7天6晚全景游&nbsp;&nbsp;保证入住2晚香格里拉</span>
+                            <span class="sta">￥7999/人起</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <h1 class="topic" id="menu2">签&nbsp;&nbsp;证&nbsp;&nbsp;推&nbsp;&nbsp;荐</h1>
+        <h4 class="topic">Visa recommendation</h4>
+        <h4 class="topic">热门：&nbsp;日本&nbsp;&nbsp;&nbsp;马来西亚&nbsp;&nbsp;&nbsp;美国&nbsp;&nbsp;&nbsp;意大利&nbsp;&nbsp;&nbsp;加拿大&nbsp;&nbsp;&nbsp;新加坡</h4>
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/visa1.jpg">
+                        <div class="pen">
+                            <span class="two">日本旅游签证&nbsp;&nbsp;&nbsp;&nbsp;￥420/人</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/visa2.jpg">
+                        <div class="prove">
+                            <span class="three">新加坡旅游签证&nbsp;&nbsp;&nbsp;&nbsp;￥370/人</span>
+                        </div>
+                        <img src="img/visa4.jpg" class="bot">
+                        <div class="apply">
+                            <span class="roo">申根旅游签证&nbsp;&nbsp;&nbsp;&nbsp;￥999/人</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/visa3.jpg">
+                        <div class="come">
+                            <span class="asia">马来西亚旅游签证&nbsp;&nbsp;&nbsp;&nbsp;￥450/人</span>
+                        </div>
+                        <img src="img/visa5.jpg" class="bot">
+                        <div class="beautiful">
+                            <span class="one">美国旅游签证&nbsp;&nbsp;&nbsp;&nbsp;￥1380/人</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="more">
+                <span>查看更多&nbsp;></span>
+        </div>
+        <div class="we"></div>
+        <div class="land"></div>
+        <h1 class="topic" id="menu3">使命与愿景</h1>
+        <h5 class="topic root">让旅游回归本质，体验纯粹旅游</h5>
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/mission1.jpg">
+                    </div>
+                    <div class="col-md-7 service">
+                        <h3 class="think">服务理念及优势</h3>
+                        <p class="english">“英华逸游”通过重新打造旅游全程中的产品线路设计、出行交通方案、陪游向导服务、增值关怀项目等，为客户提供高品质的旅游体验。英华逸游在泰国、欧洲、等多个国家拥有丰富的旅游资源，同时致力于给用户提供性价比高的产品和服务。</p>
+                    </div>
+                </div>
+                <div class="row staff"></div>
+                <div class="row way">
+                    <img src="img/rorate.png" class="care">
+                    <img src="img/icon1.png" class="light">
+                    <span class="ok">品质行程</span>
+                    <span class="des">旅游达人精心设计、基于口碑反复打磨，</span>
+                    <span class="all">全网最好，敢跟任何产品比</span>
+                    <img src="img/rorate.png" class="cost">
+                    <img src="img/icon2.png" class="true">
+                    <span class="take">品质消费</span>
+                    <span class="no">不推自费，</span>
+                    <span class="shop">不进垃圾购物店和伪景点</span>
+                    <img src="img/rorate.png" class="good">
+                    <img src="img/icon3.png" class="hand">
+                    <span class="small">品质小团</span>
+                    <span class="self">独立成团不散拼，</span>
+                    <span class="only">只跟亲朋好友一起玩，每天发团</span>
+                </div>
+        </div>
+        <nav class="navbar navbar-inverse" > 
+				<div class="container botto">
+                    <span class="gay">合作伙伴</span>
+                    <img src="img/fly-pig.png" class="fly">
+                    <span class="net">携程网</span>
+                    <span class="in">阿里飞猪</span>
+                    <sapn class="go">去哪儿</sapn>
+                    <span class="place">苏州旅游局</span>
+                    <div>
+                        <span class="hot">热门位置</span>
+                        <p class="country">韩国&nbsp;&nbsp;&nbsp;&nbsp;日本&nbsp;&nbsp;&nbsp;&nbsp;菲律宾&nbsp;&nbsp;&nbsp;&nbsp;越南&nbsp;&nbsp;&nbsp;&nbsp;老挝&nbsp;&nbsp;&nbsp;&nbsp;柬埔寨&nbsp;&nbsp;&nbsp;&nbsp;泰国&nbsp;&nbsp;&nbsp;&nbsp;马来西亚&nbsp;&nbsp;&nbsp;&nbsp;新加坡&nbsp;&nbsp;&nbsp;&nbsp;印度尼西亚&nbsp;&nbsp;&nbsp;&nbsp;印度&nbsp;&nbsp;&nbsp;&nbsp;斯里兰卡&nbsp;&nbsp;&nbsp;&nbsp;土耳其&nbsp;&nbsp;&nbsp;&nbsp;阿联酋&nbsp;&nbsp;&nbsp;&nbsp;西班牙&nbsp;&nbsp;&nbsp;&nbsp;意大利&nbsp;&nbsp;&nbsp;&nbsp;希腊&nbsp;&nbsp;&nbsp;&nbsp;法国&nbsp;&nbsp;&nbsp;&nbsp;比利时&nbsp;&nbsp;&nbsp;&nbsp;荷兰</p>
+                        <p class="englis">英国&nbsp;&nbsp;&nbsp;&nbsp;瑞士&nbsp;&nbsp;&nbsp;&nbsp;奥地利&nbsp;&nbsp;&nbsp;&nbsp;德国&nbsp;&nbsp;&nbsp;&nbsp;匈牙利&nbsp;&nbsp;&nbsp;&nbsp;俄罗斯&nbsp;&nbsp;&nbsp;&nbsp;捷克&nbsp;&nbsp;&nbsp;&nbsp;芬兰&nbsp;&nbsp;&nbsp;&nbsp;葡萄牙&nbsp;&nbsp;&nbsp;&nbsp;冰岛&nbsp;&nbsp;&nbsp;&nbsp;美国&nbsp;&nbsp;&nbsp;&nbsp;加拿大&nbsp;&nbsp;&nbsp;&nbsp;巴西&nbsp;&nbsp;&nbsp;&nbsp;阿根廷&nbsp;&nbsp;&nbsp;&nbsp;澳大利亚&nbsp;&nbsp;&nbsp;&nbsp;新西兰</p>
+                    </div>
+                    <div>
+                        <span class="topi">主题服务</span>
+                        <p class="sea">海岛度假&nbsp;&nbsp;&nbsp;&nbsp;历史文化&nbsp;&nbsp;&nbsp;&nbsp;探索冒险&nbsp;&nbsp;&nbsp;&nbsp;美食购物&nbsp;&nbsp;&nbsp;&nbsp;都市生活&nbsp;&nbsp;&nbsp;&nbsp;海外游学&nbsp;&nbsp;&nbsp;&nbsp;邮轮度假&nbsp;&nbsp;&nbsp;&nbsp;蜜月摄影&nbsp;&nbsp;&nbsp;&nbsp;亲子乐园</p>
+                    </div>
+                    <div>
+                        <span class="friend">友情链接</span>
+                        <p class="horse">马蜂窝&nbsp;&nbsp;&nbsp;&nbsp;穷游&nbsp;&nbsp;&nbsp;&nbsp;booking&nbsp;&nbsp;&nbsp;&nbsp;苏州旅游局&nbsp;&nbsp;&nbsp;&nbsp;驴友网&nbsp;&nbsp;&nbsp;&nbsp;吾爱全球签证中心&nbsp;&nbsp;&nbsp;&nbsp;酒店团购&nbsp;&nbsp;&nbsp;&nbsp;携程旅游攻略&nbsp;&nbsp;&nbsp;&nbsp;天巡职航在线&nbsp;&nbsp;&nbsp;&nbsp;满天飞旅游网&nbsp;&nbsp;&nbsp;&nbsp;中国旅游网&nbsp;&nbsp;&nbsp;&nbsp;澳乐网&nbsp;&nbsp;&nbsp;&nbsp;背包兔旅游行程</p>
+                        <p class="out">出境旅游&nbsp;&nbsp;&nbsp;&nbsp;国际酒店&nbsp;&nbsp;&nbsp;&nbsp;广州旅游社&nbsp;&nbsp;&nbsp;&nbsp;出境旅游&nbsp;&nbsp;&nbsp;&nbsp;517旅行&nbsp;&nbsp;&nbsp;&nbsp;花生游&nbsp;&nbsp;&nbsp;&nbsp;家园网&nbsp;&nbsp;&nbsp;&nbsp;海外婚礼</p>
+                    </div>
+                </div>
+                <div class="lin">
+                    <span class="number">苏ICP备14019690号、2014-2017&nbsp;&nbsp;@苏州英华国际旅游有限公司&nbsp;版权所有</span>
+                </div>
+        </nav> 
+    </div>
+    </div>
+    </div>
+    <div class="smart">
+        <div class="apple">
+            <img src="img/logo.png" class="happy">
+            <div class="fast">
+                <span>快速定制</span>
+            </div>
+        </div>
+        <ul id="myTab" class="linea">
+    <li class="die1">
+        <a href="#" data-toggle="dropdown"><img src="img/line3.png"></a>
+        <ul class="dropdown-menu die">
+            <li><a href="#s_1">首页</a></li>
+            <li><a href="#s_2">热门路线</a></li>
+            <li><a href="#s_3">签证推荐</a></li>
+            <li><a href="#s_4">使命愿景</a></li>
+        </ul>
+    </li>
+</ul>
+        <div class="ph" id="s_1">
+            <span class="how">悠游古欧洲&nbsp;&nbsp;&nbsp;遍览德法瑞意</span>
+            <span class="process">全程升级热早+1晚5星酒店</span>
+            <input type="email" class="form-control col-sm-10 sun guitar" id="inputEmail3" placeholder="| 日本   美国    英国    地中海">
+            <div class="tv">
+                <img src="img/position.png" class="for">
+                <span>目的地</span>
+            </div>
+            <div class="river">
+                <img src="img/search.png">
+            </div>
+        </div>
+        <div class="music">
+            <img src="img/carH.png" class="love">
+            <span class="succes">机场接送&nbsp;&nbsp;&nbsp;省心省力</span>
+            <span class="reflect">提供上海、苏州、无锡各市</span>
+            <span class="mone">往返机场、码头接送服务，更有包车服务</span>
+            <div class="daily">
+                查看详情
+            </div>
+        </div>
+        <div class="pric" id="s_2">
+            <div class="wate">热门线路</div>
+            <img src="img/hot1.jpg" class="tiger"/>
+            <div class="thi">
+                <span class="comf">海南三亚5天4晚</span>
+                <span class="face">纯玩、&nbsp;4晚红树林度假王国</span>
+                <span class="selec">￥2580/人起</span>
+            </div>
+            <img src="img/hot2.jpg" class="me">
+            <div class="thi1">
+                <span class="comf">海南三亚5天4晚</span>
+                <span class="face">纯玩、&nbsp;4晚红树林度假王国</span>
+                <span class="selec">￥2580/人起</span>
+            </div>
+            <div class="wind">
+                查看更多&nbsp;>
+            </div>
+        </div>
+        <div class="much" id="s_3">
+            <div class="walk">签证推荐</div>
+            <img src="img/visa1.jpg" class="frien">
+            <div class="cat">
+                <span class="yo">日本旅游签证&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥420</span>
+            </div>
+            <img src="img/visa5.jpg" class="winter">
+            <div class="eight">
+                <span class="leav">美国旅游签证&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥1380</span>
+            </div>
+            <img src="img/visa2.jpg" class="think">
+            <div class="tim">
+                <span class="that">新加坡旅游签证&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥370</span>
+            </div>
+            <div class="wind wind1">
+                查看更多&nbsp;>
+            </div>
+        </div>
+        <div class="now" id="s_4">
+            <div class="tog">
+                <span class="exam">使命与愿景：</span>
+                <span>让旅游回归本质，&nbsp;体验纯粹旅游</span>
+            </div>
+            <img src="img/mission1.jpg" class="school">
+            <span class="know">--服务理念--</span>
+            <p class="some">“英华逸游”通过重新打造旅游全程中的产品线路设计、出行交通方案、陪游向导服务、增值关怀项目等，为客户提供高品质的旅游体验。英华逸游在泰国、欧洲、等多个国家拥有丰富的旅游资源，同时致力于给用户提供性价比高的产品和服务。</p>
+            <img src="img/mission2.jpg" class="lifes">
+            <span class="people1">--服务优势--</span>
+            <img src="img/icon11.png" class="hop">
+            <p class="second">旅游达人精心设计、基于口碑反复打磨<br>告别人山人海鸡肋景点。<br>全网最好，敢跟任何产品比</p>
+            <img src="img/icon22.png" class="month">
+            <p class="bad">不推自费，<br>不进垃圾购物店和伪景点</p>
+            <img src="img/icon33.png" class="practic">
+            <p class="fight">独立成团不散拼，<br>只跟亲朋好友一起玩，每天发团</p>
+            <div class="every">
+                <p class="reason">苏ICP备14019690号、&nbsp;2014-2017<br>@苏州英华国际旅游有限公司&nbsp;版权所有<br>技术支持&nbsp;&nbsp;杭州联橙科技</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.js"></script>    
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(window).on("scroll",function(){
+        if($(window).scrollTop()>=100){
+            $(".over").addClass("navbar-fixed-top");
+        }else{
+            $(".over").removeClass("navbar-fixed-top");
+        }
+    })
+
+</script>
+</html>
